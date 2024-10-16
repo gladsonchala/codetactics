@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Tactics</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/testimonials.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="/js/navigation.js"></script> <!-- Adding JavaScript for toggling menu -->
+    <script defer src="/js/portfolio.js"></script> <!-- Adding JavaScript for toggling menu -->
+</head>
+<body>
+  <header class="header futuristic-header">
+    <nav class="nav">
+        <a href="#" class="nav-logo">Code Tactics</a>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#about" class="nav-link">About Us</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+      <h1>Empowering Developers with Code Tactics</h1>
+      <p>Unlock your potential with our innovative software development solutions and comprehensive resources.</p>
+      <a href="#contact" class="cta-button neon-button">Join Us Today</a>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <h2 class="section-title">Our Cutting-Edge Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/fluency/48/000000/code.png" alt="Software Development">
+        </div>
+        <h3>Software Development</h3>
+        <p>Creating innovative and user-friendly software tailored to your needs.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/color/48/000000/e-commerce.png" alt="Resource Management">
+        </div>
+        <h3>Resource Management</h3>
+        <p>Providing essential resources and tools to enhance your development process.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/color/48/000000/cloud.png" alt="Cloud Services">
+        </div>
+        <h3>Cloud Services</h3>
+        <p>Effortless cloud solutions to ensure your applications are scalable and secure.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="AI & Machine Learning">
+        </div>
+        <h3>AI & Machine Learning</h3>
+        <p>Utilizing AI and machine learning to foster innovation and streamline workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+    <h2 class="section-title">Our Innovative Projects</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Software Development</button>
+      <button class="filter-btn" data-filter="app">Mobile Applications</button>
+      <button class="filter-btn" data-filter="ai">AI Innovations</button>
+    </div>
+    
+    <div class="portfolio-grid">
+      <!-- Project 1 -->
+      <div class="portfolio-item" data-category="web">
+        <img src="https://media.istockphoto.com/id/1286825422/vector/futuristic-online-shopping-e-commerce-concept-with-glowing-smartphone-shopping-cart-credit.jpg?s=1024x1024&w=is&k=20&c=YtSCAElsBDJbzCEeFg_r4KGwX4J7RVQlXUEHFbr68qs=" alt="Project 1">
+        <div class="portfolio-overlay">
+          <h3>Custom E-Commerce Software</h3>
+          <p>A tailored e-commerce solution that meets the unique needs of retailers.</p>
+          <a href="#" class="view-project-btn">View Project</a>
+        </div>
+      </div>
+      
+      <!-- Project 2 -->
+      <div class="portfolio-item" data-category="app">
+        <img src="https://www.pewresearch.org/wp-content/uploads/sites/20/2023/06/PI_2023.06.20_best-worst-digital-2035_featured-jpg.webp?resize=640,360" alt="Project 2">
+        <div class="portfolio-overlay">
+          <h3>Smart Assistant Mobile App</h3>
+          <p>An intelligent mobile app that adapts to user preferences and optimizes daily tasks.</p>
+          <a href="#" class="view-project-btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="portfolio-item" data-category="ai">
+        <img src="https://via.placeholder.com/350x200" alt="Project 3">
+        <div class="portfolio-overlay">
+          <h3>Conversational AI Chatbot</h3>
+          <p>Implemented an AI-driven chatbot for enhanced customer support experiences.</p>
+          <a href="#" class="view-project-btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="portfolio-item" data-category="web">
+        <img src="https://via.placeholder.com/350x200" alt="Project 4">
+        <div class="portfolio-overlay">
+          <h3>Responsive Business Website</h3>
+          <p>Developed a modern, responsive website for a business consulting agency.</p>
+          <a href="#" class="view-project-btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="portfolio-item" data-category="app">
+        <img src="https://via.placeholder.com/350x200" alt="Project 5">
+        <div class="portfolio-overlay">
+          <h3>Innovative Fitness Application</h3>
+          <p>A next-gen fitness app combining tracking features with augmented reality.</p>
+          <a href="#" class="view-project-btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="about-us-section">
+    <div class="about-us-container">
+      <div class="about-us-content">
+        <h2 class="about-us-title">About Us</h2>
+        <p class="about-us-description">
+          At <span class="company-name">Code Tactics Technologies</span>, we are committed to developing cutting-edge software and web solutions tailored for innovative e-commerce companies in Ethiopia. Our mission is to deliver scalable, user-friendly digital platforms that empower businesses to grow and succeed in the digital landscape.
+        </p>
+        <p class="about-us-values">
+          Driven by a passion for futuristic design and seamless user experiences, our team of experts transforms ideas into reality with precision, creativity, and a focus on impactful solutions.
+        </p>
+      </div>
+
+      <div class="team-container">
+        <h3 class="team-title">Meet the Team</h3>
+        <div class="team-grid">
+          <div class="team-member-card">
+            <img src="team-member-1.jpg" alt="Gemechis Chala" class="team-member-image">
+            <h4 class="team-member-name">Gemechis Chala</h4>
+            <p class="team-member-role">Founder & CEO</p>
+          </div>
+
+          <div class="team-member-card">
+            <img src="team-member-2.jpg" alt="Selam Tekle" class="team-member-image">
+            <h4 class="team-member-name">Selam Tekle</h4>
+            <p class="team-member-role">Lead Developer</p>
+          </div>
+
+          <div class="team-member-card">
+            <img src="team-member-3.jpg" alt="Abel Mulugeta" class="team-member-image">
+            <h4 class="team-member-name">Abel Mulugeta</h4>
+            <p class="team-member-role">UI/UX Designer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials-section">
+    <div class="testimonials-container">
+      <h2 class="testimonials-title">What Our Clients Say</h2>
+
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "Code Tactics Technologies transformed our e-commerce platform into a cutting-edge digital experience. Their innovative approach and meticulous attention to detail were remarkable!"
+          </p>
+          <div class="testimonial-author">
+            <img src="client1.jpg" alt="Amina Mekonnen" class="testimonial-image">
+            <div class="author-info">
+              <h4 class="author-name">Amina Mekonnen</h4>
+              <p class="author-company">CEO, EthioShop</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "The team at Code Tactics took our vision and brought it to life with futuristic design and a seamless user experience. We couldn't be happier with the results!"
+          </p>
+          <div class="testimonial-author">
+            <img src="client2.jpg" alt="Samuel Demissie" class="testimonial-image">
+            <div class="author-info">
+              <h4 class="author-name">Samuel Demissie</h4>
+              <p class="author-company">Founder, AddisMarket</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "Their attention to detail and forward-thinking design truly set them apart. They delivered a website that exceeded our expectations!"
+          </p>
+          <div class="testimonial-author">
+            <img src="client3.jpg" alt="Mekdes Alemayehu" class="testimonial-image">
+            <div class="author-info">
+              <h4 class="author-name">Mekdes Alemayehu</h4>
+              <p class="author-company">Owner, Abyssinia Trade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Get In Touch</h2>
+    
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <div class="input-group">
+          <input type="text" id="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        
+        <div class="input-group">
+          <input type="email" id="email" required>
+          <label for="email">Your Email</label>
+        </div>
+
+        <div class="input-group">
+          <textarea id="message" rows="4" required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+
+      <!-- Contact Details -->
+      <div class="contact-info">
+        <p class="info-item">
+          <i class="fas fa-envelope"></i>
+          <span>email@codetactics.tech</span>
+        </p>
+        <p class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>+251 963 333 668</span>
+        </p>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <a href="https://t.me/codetactics" target="_blank" aria-label="Telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://github.com/code-tactic" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional Map Section -->
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15761.15668014253!2d38.75467085!3d9.0373647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f5efcffebd3%3A0xda821c73ef928f93!2sPiazza%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1726631415234!5m2!1sen!2set" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer class="footer footer-section">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h2 class="footer-brand">Code Tactics Technologies</h2>
+        <p>Innovating the Future of Softwares in Ethiopia</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: <a href="mailto:info@codetactics.tech">info@codetactics.tech</a></p>
+        <p>Phone: <a href="tel:+251963333668">+251 963 333 668</a></p>
+        <p>Location: Addis Ababa, Ethiopia</p>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer footer-bottom futuristic-footer">
+      <p>&copy; 2024 Code Tactics Technologies. All Rights Reserved.</p>
+      <a href="#home" class="footer-link">Back to Top</a>
+  </footer>
+</body>
+</html>

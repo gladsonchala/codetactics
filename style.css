@@ -1,0 +1,50 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Individual Section Styles */
+.services-section {
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.portfolio-section {
+    padding: 50px 0;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #000;
+    text-align: center;
+}
