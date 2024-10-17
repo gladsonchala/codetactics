@@ -26,7 +26,7 @@ To get a local copy of the website up and running, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/code-tactic/codetactics.git
+   git clone https://github.com/gladsonchala/codetactics.git
    ```
 
 2. **Navigate to the project directory**:
